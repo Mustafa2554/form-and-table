@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <form method="post">
+    <h1>Application form</h1>
+    <br>
+    <br>
+    <label for="fname">
+        First Name:
+        <input type="text" name="first-name" id="fname" required>
+    </label>
+    <label for="lname">
+        Last Name:
+        <input type="text" name="last-name" id="lname" required>
+    </label>
+    <br>
+    <br>
+    <label for="">
+        Date Of Birth:
+        <input type="date" name="DOB" id="" required>
+    </label>
+    <label for="age">
+        Age:
+        <input type="number" name="age" id="age" required>
+    </label>
+    <br>
+    <br>
+    <label for="gender">
+        Gender:
+        <select name="Gender" id="gender" required>
+            <option value="" selected>Select Gender</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select>        
+    </label>
+    <label for="email">
+        Email Address
+        <input type="email" name="email" id="email" required>
+    </label>
+    <br>
+    <br>
+    <label for="" >
+        Position Available:
+    </label>
+    <label for="jd">
+        Junior Developer:
+        <input type="radio" name="services" id="jd" required>
+    </label>
+    <label for="md">
+        Mid-Level Developer:
+        <input type="radio" name="services" id="md"required>
+    </label>
+    <label for="sd">
+        Senior Developer:
+        <input type="radio" name="services" id="sd"required>
+    </label>
+    <br>
+    <br>
+    <label for="">
+        Programming lanuages:
+    </label>
+    <label for="java" >
+        Java
+        <input type="checkbox" name="PL" id="java"required>
+    </label>
+    <label for="javascript">
+        Javascript
+        <input type="checkbox" name="PL" id="javascript"required>
+    </label>
+    <label for="python">
+        Python
+        <input type="checkbox" name="PL" id="python"required>
+    </label>
+    <br>
+    <br>
+    <label for="password">
+        Password:
+        <input type="password" name="Password" id="password"required>
+    </label>
+    
+    <label for="cpassword">
+        Confirm Password:
+        <input type="password" name="Confirm-Password" id="cpassword"required>
+    <br>
+    <br>
+    </label>
+    &nbsp;&nbsp;&nbsp;&nbsp;<button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
